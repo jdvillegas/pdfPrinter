@@ -1,8 +1,11 @@
 Explicación de las secciones composer.json:
-# Este es el nombre de tu proyecto
+# PrinterPDF Service.
 
 ## Descripción
-Una breve descripción de tu servicio.
+Este proyecto busca satisfacer una necesidad de contar con un servicio de almacenamiento e impresion de PDF de multiples origenes, con el animo de no tener impresiones PDF en diferentes aplicacion sino centralizar todo en un servicio que imprime el documento y luego la aplicacion externa guarda ya sea el documento PDF o en su defecto el link de acceso. 
+
+## Version
+0.01 
 
 ## Tipo de Proyecto
 Este es un proyecto de PHP.
@@ -36,7 +39,7 @@ Se da preferencia a versiones estables de las dependencias.
 
 1. **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/usuario/proyecto.git
+    git clone https://github.com/jdvillegas/pdfPrinter.git
     ```
 
 2. **Instalar dependencias**:
