@@ -10,6 +10,8 @@ class PdfService {
         // Crear contenido del PDF
         $htmlContent = '<h1>Reporte de ' . htmlspecialchars($data['titulo']) . '</h1>';
         $htmlContent .= '<p>Generado para: ' . htmlspecialchars($data['usuario']) . '</p>';
+        $impresion_nombre = $data['tipo']['id'];
+
         
         $mpdf->WriteHTML($htmlContent);
 
